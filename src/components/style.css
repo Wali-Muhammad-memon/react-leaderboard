@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+/* .main-header{
+    border-bottom:1px solid #c4c4c4 ;
+} */
+
+.header-container {
+	padding: 8px 16px !important;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.logo_img img {
+	width: 3rem;
+	height: 1.8rem;
+}
+
+.logo {
+	font-family: sans-serif;
+	text-transform: uppercase !important;
+	font-size: 14px;
+	font-weight: bolder !important;
+	letter-spacing: 2px;
+	padding-right: 33px;
+	text-indent: inherit;
+	position: relative;
+	top: 0px;
+	padding-top: 0px;
+	/* color: rgb(153, 230, 175) !important; */
+	color: #1c6f33 !important;
+}
+
+.logout-btn {
+	background-color: green !important;
+	color: #fff !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	font-size: 14px !important;
+	border-radius: 0 !important;
+	box-shadow: 0 0 10px #0001;
+
+}
+
+.right a:not(:last-child) {
+	color: #333 !important;
+	font-weight: 600 !important;
+	font-size: 14px !important;
+}
+
+a.link:hover {
+	background-color: #fff !important;
+}
+
+.logout-btn:hover {
+	background-color: green !important;
+}
+
+
+/* Banner Style */
+
+.main_content {
+	padding: 50px;
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	font-size: 50px;
+	line-height: 100%;
+	font-size: 700;
+	margin: 0 auto 13px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1.title:after {
+	content: "★";
+	color: #1c6f33;
+	font-size: 44px;
+	position: relative;
+	top: -19px;
+}
+
+.desc {
+	line-height: 1.2;
+	margin: 0 auto;
+	max-width: 100%;
+	padding-bottom: 50px;
+	font-size: 20px;
+	color: rgba(54, 73, 98, .8);
+	width: 800px;
+}
+
+.float_head {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.student_info {
+	padding: 20px 0;
+}
+
+.student_detail {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.student_name {
+	margin: 0;
+	font-size: 26px;
+	font-weight: 700;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.student_inst {
+	font-size: 17px;
+	color: rgba(54, 73, 98, .8);
+}
+
+.student_ts {
+	width: 20%;
+	text-align: right;
+	font-size: 33px;
+	font-weight: 700;
+	color: #1c6f33;
+}
+
+.counterbtn {
+	margin-left: 10px;
+	border: 1px solid #333;
+	box-shadow: 0 0 10px #0001;
+	border-radius: 2px;
+	color: #fff;
+	border: none;
+	background-color: #1c6f33;
+	border-radius: 50%;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.subbtn {
+	margin-left: 10px;
+	border: 1px solid #333;
+	box-shadow: 0 0 10px #0001;
+	border-radius: 2px;
+	color: #fff;
+	border: none;
+	background-color: red;
+	border-radius: 50%;
+	font-size: 14px;
+	cursor: pointer;
+
+}
+
+.student_inst span {
+	color: #fff;
+	background: #1c6f33;
+	padding: 5px 10px;
+	border-radius: 2px;
+	box-shadow: 0 0 10px #0001;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.footer-container {
+	background: #090e0b;
+	padding: 30px 0;
+	color: #fff;
+
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footer-col-1 {
+	flex: 0 0 35%;
+}
+
+.foo-logo_img img {
+	width: 3rem;
+	height: 1.8rem;
+}
+
+.foo-i {
+	display: flex;
+	align-items: center;
+	color: #fff !important;
+}
+
+.foo_desc p {
+	margin-top: 17px;
+	display: block;
+	color: #fff;
+	font-size: 27px;
+	line-height: 37px;
+	font-weight: 700;
+}
+
+.facebook {
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 2px 0;
+}
+
+ul li a {
+	color: #b9b9b9 !important;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+ul li a i {
+	font-size: 28px !important;
+	color: #b9b9b9 !important;
+}
+
+.secondary_foo {
+	background-color: #090e0b;
+	padding: 20px 0;
+}
+
+.secondary_footer {
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 60px;
+}
